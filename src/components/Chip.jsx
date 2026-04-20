@@ -27,7 +27,7 @@ const Chip = () => {
             ease: 'power2.inOut'
         },
         {
-            toggleActions:'restart reverse restart reverse',
+            toggleActions:'play reverse restart reverse',
             start: 'top 85%',
         }
     )
