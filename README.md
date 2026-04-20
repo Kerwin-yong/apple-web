@@ -1,18 +1,22 @@
-# React + Vite
+iPhone 17 Pro - Apple Website Clone
+A high-fidelity clone of the Apple iPhone 17 Pro website, built with React, Three.js, and GSAP. This project focuses on pixel-perfect UI/UX implementation and complex scroll-based animations to deliver a premium user experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Key Features
+3D Interactive Model: Integrated Three.js to render the iPhone 17 Pro with dynamic color-switching capabilities.
 
-Currently, two official plugins are available:
+Advanced Animations: Leveraged GSAP ScrollTrigger for smooth, directional fade-ins and scale transitions that react to user scrolling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Apple Aesthetics: Meticulously recreated Apple’s design system, including typography hierarchy, rhythmic spacing, and section transitions.
 
-## React Compiler
+Optimized Performance: Built with Vite for lightning-fast HMR and optimized asset loading.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+🛠️ Tech Stack
+Core: React.js 18, Vite
 
-Note: This will impact Vite dev & build performances.
+3D/Graphics: Three.js, @react-three/fiber, @react-three/drei
 
-## Expanding the ESLint configuration
+Motion: GSAP (GreenSock Animation Platform)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Styling: Tailwind CSS
+
+Deployment: Vercel / GitHub Pages

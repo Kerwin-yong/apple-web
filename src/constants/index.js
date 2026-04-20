@@ -65,14 +65,14 @@ export const models = [
 ];
 
 export const sizes = [
-  { label: '6.1"', value: "small" },
-  { label: '6.7"', value: "large" },
+  { label: '6.3"', value: "small" },
+  { label: '6.9"', value: "large" },
 ];
 
 export const footerLinks = [
   "Privacy Policy",
   "Terms of Use",
-  "Sales Policy",
+  "Sales and Redunds",
   "Legal",
   "Site Map",
 ];

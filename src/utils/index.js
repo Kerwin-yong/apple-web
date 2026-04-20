@@ -20,5 +20,7 @@ export const pauseImg = "/assets/images/pause.svg";
 // --- 图片资源 ---
 export const heroImg = "/assets/images/hero.jpeg";
 export const yellowImg = "/assets/images/yellow.jpg";
-export const chipImg = "/assets/images/chip.jpeg";
+export const chipImg = "/assets/images/chip.png";
 export const frameImg = "/assets/images/frame.png";
+export const explore1Img = "/assets/images/explore1.png";
+export const explore2Img = "/assets/images/explore2.png";
