@@ -4,6 +4,8 @@ import gsap from 'gsap';
 import { useGSAP } from '@gsap/react'
 import { animateWithGsap } from '../utils/animation';
 
+gsap.registerPlugin(ScrollTrigger);
+
 const Chip = () => {
     const videoRef = useRef();
 
@@ -24,11 +26,13 @@ const Chip = () => {
             opacity: 1,
             y: 0,
             duration: 1,
-            ease: 'power2.inOut'
-        },
-        {
-            toggleActions:'play reverse restart reverse',
-            start: 'top 85%',
+            ease: 'power2.inOut',
+            scrollTrigger:{
+                trigger: '.g_fadeIn',
+                start: 'top 85%',
+                toggleActions: 'play reverse restart reversee'
+            }
+    
         }
     )
 
