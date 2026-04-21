@@ -25,14 +25,17 @@ function Model(props) {
           mat.map = null;
         }
 
-        mat.color.management = false;
+        //mat.color.management = false;//
 
         gsap.to(mat.color, {
           r: targetColor.r,
           g: targetColor.g,
           b: targetColor.b,
           duration: 1, // 动画持续时间（秒）
-          ease: 'power2.out' // 缓动函数，让变色更柔和
+          ease: 'power2.out' ,// 缓动函数，让变色更柔和
+          onUpdate: () => {
+            mat.needsUpdate = true;
+          }
         });
       }
     });
@@ -158,4 +161,4 @@ function Model(props) {
 
 export default Model;
 
-useGLTF.preload('/models/scene1.glb')
+//useGLTF.preload('/models/scene1.glb')//

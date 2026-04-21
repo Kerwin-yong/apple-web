@@ -3,6 +3,8 @@ import { chipImg, frameImg, frameVideo } from '../utils'
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react'
 import { animateWithGsap } from '../utils/animation';
+import { ScrollTrigger } from "gsap/all"
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -70,7 +72,7 @@ const Chip = () => {
                     <div className="hiw-video">
                         <video 
                         className="pointer-events-none" 
-                        playInline 
+                        playsInline={true}
                         preload="auto" 
                         muted 
                         autoPlay 
@@ -106,7 +108,7 @@ const Chip = () => {
                     <p className="hiw-text g_fadeIn">
                         Paired with an innovative thermal design, the GPU and CPU deliver up to{ ' ' }
                         <span className="text-white">
-                            40 per cent better
+                            40 per cent better { ' ' }
                         </span>
                             sustained performance.
                     </p>
