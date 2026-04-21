@@ -32,11 +32,15 @@ const Chip = () => {
             scrollTrigger:{
                 trigger: '.g_fadeIn',
                 start: 'top 85%',
-                toggleActions: 'play reverse restart reversee'
+                toggleActions: 'play none none reverse'
             }
     
-        }
-    )
+        })
+
+        setTimeout (() => {
+            ScrollTrigger.refresh();
+        }, 500);
+    
 
     }, []);
 
